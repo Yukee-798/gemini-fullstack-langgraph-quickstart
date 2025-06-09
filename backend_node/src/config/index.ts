@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import type { ConfigType } from '../types/index.js';
+import type { ConfigType } from '../types/index';
 
 // Load environment variables
 const __filename = fileURLToPath(import.meta.url);

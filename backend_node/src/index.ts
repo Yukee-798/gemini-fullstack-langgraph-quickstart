@@ -114,6 +114,7 @@ async function startServer(): Promise<void> {
       logger.info(`Server running on port ${config.port}`);
       console.log(`🚀 LangGraph Agent API running at http://localhost:${config.port}`);
       console.log(`📚 API documentation at http://localhost:${config.port}/`);
+      console.log(`🔄 Development mode with hot reload enabled`);
     });
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : 'Unknown error';

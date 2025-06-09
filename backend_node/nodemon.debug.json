@@ -1,0 +1,12 @@
+{
+  "watch": ["src"],
+  "ext": "ts,js,json",
+  "ignore": ["src/**/*.test.ts", "src/**/*.spec.ts", "dist", "node_modules"],
+  "exec": "tsx --inspect=0.0.0.0:9229 src/index.ts",
+  "env": {
+    "NODE_ENV": "development",
+    "DEBUG": "*"
+  },
+  "delay": 1000,
+  "verbose": true
+}

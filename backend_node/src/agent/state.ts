@@ -7,7 +7,7 @@ import type {
   QueryGenerationState,
   WebSearchState,
   SourceInfo
-} from '../types/index.js';
+} from '../types/index.ts';
 
 /**
  * Search state output
